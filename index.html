@@ -1,15 +1,455 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astrum Racing Team</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="title bar icon" href="./AstrumRacingTeam.svg">
-</head>
-<body>
-    <img src="./AstrumRacingTeam.svg" alt="">
-    <p>website currently under construction</p>
-</body>
+<html lang="en" lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="robots" content="noindex" />
+		<meta
+			name="description"
+			content="official website of F1 in schools racing team Astrum"
+		/>
+		<meta
+			name="keywords"
+			content="F1 in schools, Formula 1 in schools,
+                                    Formel 1 in der Schule, F1 in der Schule, 
+                                    Astrum, Astrum Racing Team, Astrum KGS,
+                                    Klaus Groth Schule, Nordmetall-Cup"
+		/>
+		<meta name="author" content="Yujie Cheng" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Astrum Racing team</title>
+		<link
+			rel="title bar icon"
+			href="./images/Main/AstrumRacingTeam_TabLogo.jpg"
+		/>
+		<link rel="stylesheet" href="css/main.min.css" />
+		<link rel="stylesheet" href="css/home.min.css" />
+	</head>
+
+	<body>
+		<!--top-->
+		<header>
+			<a id="NavElement0" href="#start" class="NavLogoLink"
+				><img
+					src="./images/Main/AstrumRacingTeam_si.png"
+					alt=""
+					class="NavLogo fade-in"
+			/></a>
+
+			<input type="checkbox" id="nav-toggle" class="nav-toggle" />
+			<label for="nav-toggle" class="nav-toggle-label">
+				<span></span>
+			</label>
+			<nav class="fade-in">
+				<ul>
+					<div class="navsplit-1"></div>
+					<li>
+						<label
+							for="nav-toggle"
+							onclick="window.location.href='#'"
+						>
+							<p id="NavElement1">Startseite</p>
+						</label>
+					</li>
+					<li>
+						<label
+							for="nav-toggle"
+							onclick="window.location.href='#CarPage'"
+						>
+							<p id="NavElement2">Unser Fahrzeug</p>
+						</label>
+					</li>
+					<li>
+						<label
+							for="nav-toggle"
+							onclick="window.location.href='#TeamPage'"
+						>
+							<p id="NavElement3">Unser Team</p>
+						</label>
+					</li>
+					<!--<li>
+						<label
+							for="nav-toggle"
+							onclick="window.location.href='#sponsors'"
+						>
+							<p id="NavElement4">Sponsoren</p>
+						</label>
+					</li>-->
+					<li>
+						<label
+							for="nav-toggle"
+							onclick="window.location.href='#contact'"
+						>
+							<p id="NavElement5">Kontakt</p>
+						</label>
+					</li>
+					<div class="navsplit-2"></div>
+					<li>
+						<label
+							for="nav-toggle"
+							onclick="window.location.href='#'"
+						>
+							<div class="languageSwitsch">
+								<a href="#eng" data-reload>EN</a>
+								&nbsp;
+								<a href="#ger" data-reload>DE</a>
+							</div>
+						</label>
+					</li>
+					<li>
+						<label
+							for="nav-toggle"
+							onclick="window.location.href='#'"
+						>
+							<div class="navbottom"></div>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--loading-->
+		<div class="loaderbackground">
+			<div class="loader fade-in"></div>
+		</div>
+
+		<!--top margin-->
+		<div>
+			<p class="topmargin" id="start"></p>
+		</div>
+
+		<!--Landing page-->
+		<div class="LandingPage">
+			<div class="LandingPageWhiteBox"></div>
+			<img
+				src="./images/Home/Astrum_text_black.png"
+				alt=""
+				class="LandingPageBackgroundText1"
+			/>
+			<img
+				src="./images/Home/Astrum_text_white.png"
+				alt=""
+				class="LandingPageBackgroundText1"
+			/>
+			<img
+				src="./images/Home/Astrum_text_black.png"
+				alt=""
+				class="LandingPageBackgroundText2"
+			/>
+			<img
+				src="./images/Home/Astrum_text_white.png"
+				alt=""
+				class="LandingPageBackgroundText2"
+			/>
+			<img
+				src="./images/Home/shadow_lg.png"
+				alt=""
+				class="LandingPageCarSideView"
+			/>
+			<p class="LandingPageLine1 fade-in" id="LandingPageLine1">
+				Perfektion,
+			</p>
+
+			<p class="LandingPageLine2 fade-in" id="LandingPageLine2">
+				und nichts weniger.
+			</p>
+
+			<p class="LandingPageText fade-in" id="LandingPageText">
+				wir sind das astrum racing team der
+			</p>
+			<div class="LandingPageTextLinkContainer fade-in">
+				<a
+					class="LandingPageTextLink"
+					href="https://www.klaus-groth-schule.de/"
+					id="LandingPageTextLink"
+					>Klaus-Groth-Schule Neumünster
+				</a>
+			</div>
+
+			<a href="#CarPage">
+				<div class="ScrollIndicator">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</a>
+		</div>
+
+		<!--CarPage-->
+		<div class="CarPage" id="CarPage">
+			<div class="LandingPageContinuation"></div>
+			<img src="./images/Home/shadow.png" alt="" class="CarPagePic" />
+			<div class="CarPageBlueTextBox">
+				<p class="CarPageTitle" id="CarPageTitle">Unser Fahrzeug</p>
+				<p class="CarPageText" id="CarPageText">
+					Unser Rennwagen befindet sich derzeit in der Entwicklung und
+					Testphase. Folgen Sie uns auf unseren
+					Social-Media-Plattformen für Updates!
+				</p>
+			</div>
+		</div>
+
+		<!--TeamPage-->
+		<div class="TeamPage" id="TeamPage">
+			<p class="TeamPageTitle" id="TeamPageTitle">Unser Team</p>
+			<div class="TeamPageDecorationSides">
+				<div class="TeamPageDecorationMiddle">
+					<div class="MemberContainer">
+						<div class="MembersCard">
+							<img
+								src="./images/Home/AstrumRacingTeam_YujieCheng.jpeg"
+								alt=""
+								class="TeamPagePortrait"
+							/>
+							<div class="TeamMemberTextBox">
+								<p class="TeamMemberName">Yujie Cheng</p>
+								<p class="TeamMemberRole" id="TeamMemberRole1">
+									Team Manager, Ingeneur
+								</p>
+							</div>
+						</div>
+						<div class="MembersCard">
+							<img
+								src="./images/Home/AstrumRacingTeam_JonathanDohse.jpeg"
+								alt=""
+								class="TeamPagePortrait"
+							/>
+							<div class="TeamMemberTextBox">
+								<p class="TeamMemberName">Jonathan Dohse</p>
+								<p class="TeamMemberRole" id="TeamMemberRole2">
+									Reccourcen & PR
+								</p>
+							</div>
+						</div>
+						<div class="MembersCard">
+							<img
+								src="./images/Home/AstrumRacingTeam_MalikTischmann.jpeg"
+								alt=""
+								class="TeamPagePortrait"
+							/>
+							<div class="TeamMemberTextBox">
+								<p class="TeamMemberName">Malik Tischmann</p>
+								<p class="TeamMemberRole" id="TeamMemberRole3">
+									Marketing
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--margin between-->
+		<div class="margin-between" id="sponsors"></div>
+
+		<!--Sponsors
+		<div class="SponsorsPageContainer">
+			<p class="Sponsors" id="ourSponsors">Unsere Sponsoren</p>
+			<div class="sponsor-grid-container">
+				<div class="sponsor-grid-item">
+					<div class="sponsorlogo">
+						<img
+							class="thelogo"
+							src="/images/sponsor logos/SponsorLogo.jpg"
+						/>
+						<div class="descriptions">
+							<p class="sponsorname">Sponsor Name</p>
+							<br />
+							<p class="sponsordescription" id="description1">
+								Sponsoren Beschreibung Text
+							</p>
+							<br />
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								class="sponsorlink"
+								id="SponsorLink1"
+								href="#"
+								>Website besuchen</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+		<!--margin between-->
+		<div class="margin-between" id="contact"></div>
+
+		<!--ContactPage-->
+		<div class="ContactPage">
+			<p class="ContactPageTitle" id="ContactPageTitle">Kontakt</p>
+			<div class="ContactGrid">
+				<div class="emailContainer">
+					<p class="ContactContainerTitle">E-mail</p>
+					<p
+						class="EmailContainerTitleFollow"
+						id="EmailContainerTitleFollow"
+					>
+						Haben Sie noch Fragen?
+					</p>
+					<p class="Email" id="ourmail">Unser Email Adresse:</p>
+					<br />
+					<a
+						href="mailto:astrumracingteam.kgs@gmail.com"
+						class="EmailAdress"
+						>astrumracingteam.kgs@gmail.com</a
+					>
+				</div>
+				<div class="SocialMediaContainer">
+					<p class="ContactContainerTitle">Social Media</p>
+					<p
+						class="SocialContainerTitleFollow"
+						id="SocialContainerTitleFollow"
+					>
+						Folgen sie uns auf unsere social media plattformen für
+						mehr updates.
+					</p>
+					<br />
+
+					<div class="SocialMediahyperlinksContainer">
+						<a href="https://www.instagram.com/astrumrt_kgs/">
+							<img
+								src="./images/Main/social media icons/Instagram_Glyph_Gradient_RGB.png"
+								alt="Instagram"
+								class="social-media-hyperlink"
+							/>
+						</a>
+
+						<a href="https://twitter.com/AstrumRT_kgs">
+							<img
+								src="./images/Main/social media icons/2021 Twitter logo - blue.png"
+								alt="Twitter"
+								class="social-media-hyperlink"
+							/>
+						</a>
+
+						<a
+							href="https://www.youtube.com/channel/UCRE7Bn18Qevn5FWfHOPdoRw"
+						>
+							<img
+								src="./images/Main/social media icons/yt_icon_rgb.png"
+								alt="YouTube"
+								class="social-media-hyperlink"
+							/>
+						</a>
+
+						<a href="https://discord.gg/2RDcEWAQfM">
+							<img
+								src="./images/Main/social media icons/Discord-Logo-Color.png"
+								alt="Discord"
+								class="social-media-hyperlink"
+							/>
+						</a>
+					</div>
+				</div>
+				<div class="AdressContainer">
+					<p
+						class="ContactContainerTitle"
+						id="ContactContainerAdressTitle"
+					>
+						Adresse
+					</p>
+					<p class="Adress" id="adress1">Klaus-Groth-Schule</p>
+					<p class="Adress" id="adress2">
+						Gymnasium der Stadt Neumünster
+					</p>
+					<p class="Adress" id="adress3">Parkstrasse 1</p>
+					<p class="Adress" id="adress4">24534 Neumünster</p>
+					<p class="Adress" id="adress5">Deutschland</p>
+				</div>
+				<div class="MapContainer">
+					<iframe
+						class="Map"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1170.
+						4770008303874!2d9.989646957212118!3d54.07455909848766!2m3!1f0!2f0!
+						3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b24bc58e7aa573%3A0xb53f5
+						012c7a283c!2sKlaus-Groth-Schule%20Neum%C3%BCnster!5e0!3m2!1sde!2sde
+						!4v1611759044349!5m2!1sde!2sde"
+						frameborder="0"
+						style="border: 0"
+						allowfullscreen=""
+						aria-hidden="false"
+						tabindex="0"
+					></iframe>
+				</div>
+			</div>
+		</div>
+
+		<!--footer-->
+		<footer>
+			<a href="#start" class="footer-logo-container">
+				<img
+					src="./images/Main/AstrumRacingTeam_si.png"
+					alt="logo"
+					class="bottom-logo"
+				/>
+			</a>
+
+			<div class="social-media-hyperlinks-footer">
+				<a href="https://www.instagram.com/astrumrt_kgs/">
+					<img
+						src="./images/Main/social media icons/Instagram-logo-white-icon.png"
+						alt="Instagram"
+						class="social-media-hyperlinks-footer1"
+					/>
+				</a>
+
+				<a href="https://twitter.com/AstrumRT_kgs">
+					<img
+						src="./images/Main/social media icons/2021 Twitter logo - white.png"
+						alt="Twitter"
+						class="social-media-hyperlinks-footer2"
+					/>
+				</a>
+
+				<a
+					href="https://www.youtube.com/channel/UCRE7Bn18Qevn5FWfHOPdoRw"
+				>
+					<img
+						src="./images/Main/social media icons/yt_icon_mono_dark.png"
+						alt="YouTube"
+						class="social-media-hyperlinks-footer3"
+					/>
+				</a>
+
+				<a href="https://discord.gg/2RDcEWAQfM">
+					<img
+						src="./images/Main/social media icons/Discord-Logo-White.png"
+						alt="Discord"
+						class="social-media-hyperlinks-footer4"
+					/>
+				</a>
+			</div>
+
+			<div class="imprint">
+				<p id="imprint1">Parkstrasse 1</p>
+				<p id="imprint2">24534 Neumünster</p>
+				<p id="imprint3">Deutschland</p>
+				<br />
+				<p>astrumracingteam.kgs@gmail.com</p>
+			</div>
+
+			<p class="data-protection" id="dataProtection">
+				Texte, Logos, Grafiken und Bilddateien sowie deren Anordnung auf
+				dieser Website unterliegen dem Urheberrechtsschutz. Jede nicht
+				autorisierte Verwendung ohne Erlaubnis von uns oder der Person
+				auf dem Bild ist streng untersagt. Kontaktieren Sie uns, wenn es
+				sich herausstellt, dass Inhalte auf dieser Website gegen das
+				Urheberrecht verstoßen. Wir werden den betroffenen Inhalt so
+				schnell wie möglich entfernen.
+			</p>
+
+			<p class="third-party-links-disclaimer" id="tplDisclaimer">
+				Externe Links werden nur zu Informationszwecken bereitgestellt.
+				Sie stellen keine Billigung oder Genehmigung von Produkten,
+				Dienstleistungen oder Meinungen der Organisation oder
+				Einzelperson dar. Wir übernehmen keine Verantwortung für die
+				Richtigkeit, Rechtmäßigkeit oder den Inhalt der externen Website
+				oder des Links. Bitte wenden Sie sich an die externe Website, um
+				Antworten auf Fragen zum Inhalt zu erhalten.
+			</p>
+		</footer>
+	</body>
+	<script src="./Javascript/mainscript.js"></script>
+	<script src="./Javascript/home.js"></script>
 </html>
