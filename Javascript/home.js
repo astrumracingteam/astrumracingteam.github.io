@@ -23,10 +23,12 @@ var language = {
 		TeamMemberRole2: "Recources & PR",
 		TeamMemberRole3: "Marketing",
 		//sponsors
-		//ourSponsors: "Our Sponsors",
-		//description1: `Cimtt (Institute for CIM Technology Transfer at Kiel University of Applied Sciences) was founded in 1989 with the goal of transitioning CIM-Technology.
-		//In 2014, the “Institute for CIM-Technology transfer” became a part of “University of Applied Science Kiel”.
-		//They are supporting us by milling our vehicles chassis for the competition.`,
+		ourSponsors: "Our Sponsors",
+		description1a: `The "CIMTT" was founded in 1989 with the goal of transferring CIM technologies to industry. 
+		In 2014 the "Institute for CIM Technology Transfer" was transferred to the Kiel University of Applied Sciences. 
+		The "Institute for Production Technology IfP" is also located in the building, with the focus on teaching, 
+		R&D and technology transfer.`,
+		description1b: `-cimtt.fh-kiel.de`,
 		SponsorLink1: "visit website",
 		//contact
 		ContactPageTitle: "Contact",
@@ -88,9 +90,10 @@ if (window.location.hash) {
 		TeamMemberRole2.textContent = language.eng.TeamMemberRole2;
 		TeamMemberRole3.textContent = language.eng.TeamMemberRole3;
 		//sponsors
-		//ourSponsors.textContent = language.eng.ourSponsors;
-		//description1.textContent = language.eng.description1;
-		//SponsorLink1.textContent = language.eng.SponsorLink1;
+		ourSponsors.textContent = language.eng.ourSponsors;
+		description1a.textContent = language.eng.description1a;
+		description1b.textContent = language.eng.description1b;
+		SponsorLink1.textContent = language.eng.SponsorLink1;
 		//contact
 		ContactPageTitle.textContent = language.eng.ContactPageTitle;
 		EmailContainerTitleFollow.textContent =
