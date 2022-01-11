@@ -6,7 +6,7 @@ var language = {
 		NavElement1: "Home",
 		NavElement2: "our vehicle",
 		NavElement3: "Our Team",
-		//NavElement4: "Sponsors",
+		NavElement4: "Sponsors",
 		NavElement5: "Contact",
 		//LandingPage
 		LandingPageLine1: "Perfection,",
@@ -30,6 +30,19 @@ var language = {
 		R&D and technology transfer.`,
 		description1b: `-cimtt.fh-kiel.de`,
 		SponsorLink1: "visit website",
+		description2a: `Autolackierung Markus Fieroh offers a wide range
+		Range of professional painting and
+		High quality repair services.
+		In addition to vehicle paintwork, industrial paintwork is also 
+		offered with customizable needs. The professionalism
+		of the Autolackierung Markus Fieroh always ensures
+		perfect results.`,
+		SponsorLink2: "visit website",
+		description3a: `SimScale is a cloud-based simulation platform. 
+		With Simscale you can perfom complicated Flow simulations, solid state simulations and thermal simulations 
+		directly in the browser. It is easy to lern and the results are always detailed
+		and realistic, which makes it a excellent tool for professional engineers.`,
+		SponsorLink3: "visit website",
 		//contact
 		ContactPageTitle: "Contact",
 		EmailContainerTitleFollow: "Do you have any further questions?",
@@ -72,8 +85,8 @@ if (window.location.hash) {
 		NavElement2.setAttribute("href", "#CarPage");
 		NavElement3.textContent = language.eng.NavElement3;
 		NavElement3.setAttribute("href", "#TeamPage");
-		//NavElement4.textContent = language.eng.NavElement4;
-		//NavElement4.setAttribute("href", "#sponsors");
+		NavElement4.textContent = language.eng.NavElement4;
+		NavElement4.setAttribute("href", "#sponsors");
 		NavElement5.textContent = language.eng.NavElement5;
 		NavElement5.setAttribute("href", "#contact");
 		//LandingPage
@@ -94,6 +107,10 @@ if (window.location.hash) {
 		description1a.textContent = language.eng.description1a;
 		description1b.textContent = language.eng.description1b;
 		SponsorLink1.textContent = language.eng.SponsorLink1;
+		description2a.textContent = language.eng.description2a;
+		SponsorLink2.textContent = language.eng.SponsorLink2;
+		description3a.textContent = language.eng.description3a;
+		SponsorLink3.textContent = language.eng.SponsorLink3;
 		//contact
 		ContactPageTitle.textContent = language.eng.ContactPageTitle;
 		EmailContainerTitleFollow.textContent =
